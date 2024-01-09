@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "earth-data-science-textbook"
+version = "0.1.0"
+description = ""
+authors = ["Tristan New <tristan.new@route2.com>"]
+readme = "README.md"
+packages = [{include = "earth_data_science_textbook"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+geopandas = "^0.14.2"
+seaborn = "^0.13.1"
+earthpy = "^0.9.4"
+matplotlib = "^3.8.2"
+shapely = "^2.0.2"
+pysal = "^23.7"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
