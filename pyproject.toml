@@ -16,6 +16,7 @@ earthpy = "^0.9.4"
 matplotlib = "^3.8.2"
 shapely = "^2.0.2"
 pysal = "^23.7"
+contextily = "^1.5.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.28.0"
